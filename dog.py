@@ -28,6 +28,7 @@ class Dog(MyObject):
 
 
   def do_stuff(self):
+    # Call a bunch of methods with the current (self) object
     self.bark()
     self.bark()
     self.bark()
